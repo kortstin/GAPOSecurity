@@ -35,12 +35,20 @@ $(function () {
         return false;
     });
 
-    $("#businessForm").submit(function(e) {
-        e.preventDefault();
-    });
-    $("#officerForm").submit(function(e) {
-        e.preventDefault();
+    // scroll top top
+    $('.scroll-top').click(function () {
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 1000);
     });
 
-
+    $('.switcher-trigger').click(function () {
+        $('.switcher-wrap').toggleClass('active');
+    });
+    $('.color-switcher ul li').click(function () {
+        var color = $(this).attr('data-color');
+        $('#theme-color').attr("href", "css/" + color + ".css");
+        $('.color-switcher ul li').removeClass('active');
+        $(this).addClass('active');
+    });
 });
