@@ -135,6 +135,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #f8f9f6;
 }
 
+.services-hr {
+  background-color: #f8f9f6;
+}
+
 
 #about .text-muted {
   color: #000;
@@ -7347,6 +7351,9 @@ p a, .border-link {
   font-style: italic; }
 
 /*footer*/
+#footer {
+  background: #252324 !important;
+}
 footer ul > li {
   padding: 0.5rem; }
 
