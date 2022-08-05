@@ -25,7 +25,7 @@ $(function () {
         } else {
             $('.sticky-navigation').removeClass('navbar-shadow');
         }
-        
+
         // adjust scroll to top
         if (scroll >= 600) {
             $('.scroll-top').addClass('active');
@@ -35,21 +35,12 @@ $(function () {
         return false;
     });
 
-    // scroll top top
-    $('.scroll-top').click(function () {
-        $('html, body').stop().animate({
-            scrollTop: 0
-        }, 1000);
+    $("#businessForm").submit(function(e) {
+        e.preventDefault();
+    });
+    $("#officerForm").submit(function(e) {
+        e.preventDefault();
     });
 
-    /**Theme switcher - DEMO PURPOSE ONLY */
-    $('.switcher-trigger').click(function () {
-        $('.switcher-wrap').toggleClass('active');
-    });
-    $('.color-switcher ul li').click(function () {
-        var color = $(this).attr('data-color');
-        $('#theme-color').attr("href", "css/" + color + ".css");
-        $('.color-switcher ul li').removeClass('active');
-        $(this).addClass('active');
-    });
+
 });
