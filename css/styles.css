@@ -139,6 +139,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f8f9f6;
 }
 
+#about {
+  padding-top: 5rem;
+}
 
 #about .text-muted {
   color: #000;
