@@ -159,6 +159,33 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 
+.phone-number-padding {
+  padding-bottom: 2rem;
+}
+
+.copy-padding {
+  padding-bottom: 2rem;
+}
+
+.footer-phone {
+  color: #d55732;
+
+  font-size: 1rem;
+}
+
+.footer-link {
+  color: #d55732;
+}
+
+.footer-link:hover {
+  color: #f8f9f6;
+}
+
+.footer-phone:hover {
+  color: #f8f9f6;
+}
+
+
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
