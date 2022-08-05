@@ -115,7 +115,9 @@ body {
 
 #home {
   color: #f8f9f6;
-  background-color: #252324 ;
+  background-image: url('../img/max-fleischmann-4wcI3YQAWpI-unsplash.jpg');
+  background-size: cover;
+  text-shadow: 3px 3px 2px black;
 }
 
 .home-text {
